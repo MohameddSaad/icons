@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header
+{
+    background-color: #cdcedf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.icons-container
+{
+    display: flex;
+}
+.icons-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0px 5px 10px rgba( 0, 0, 0, 0.2);
+}
+.icons-item span
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease-out;
+}
+.icons-item a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s;
+
+}
+.icons-item a i
+{
+    font-size: 30px;
+    color: #000;
+}
+.icons-item:hover span
+{
+    width: 150px;
+}
+.icons-item:nth-child(1):hover a 
+{
+    background-color: #5005F2;
+}
+.icons-item:nth-child(2):hover a 
+{
+    background-color: #F20587;
+}
+.icons-item:nth-child(3):hover a 
+{
+    background-color: #05C7F2;
+}
+.icons-item:nth-child(4):hover a 
+{
+    background-color: #F20505;
+}
+.icons-item:nth-child(5):hover a 
+{
+    background-color: #04D939;
+}
+.icons-item:nth-child(6):hover a 
+{
+    background-color: #5852F2;
+}
+.icons-item:nth-child(7):hover a 
+{
+    background-color: #8C164D;
+}
+.icons-item:hover i
+{
+    color: #fff;
+}
+.icons-item:nth-child(1) span
+{
+    color: #5005F2;
+}
+.icons-item:nth-child(2) span 
+{
+    color: #F20587;
+}
+.icons-item:nth-child(3) span  
+{
+    color: #05C7F2;
+}
+.icons-item:nth-child(4) span 
+{
+    color: #F20505;
+}
+.icons-item:nth-child(5) span 
+{
+    color: #04D939;
+}
+.icons-item:nth-child(6) span  
+{
+    color: #5852F2;
+}
+.icons-item:nth-child(7) span 
+{
+    color: #8C164D;
+}
+
